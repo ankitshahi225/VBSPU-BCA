@@ -1,0 +1,120 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About-us/Veer Bahadur Singh University,Jaunpur</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <section class="sub-header">
+      <!-- Creating Nav Section Inside the Header Section -->
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="introduction.html" >INTRODUCTION </a></li>
+            <li><a href="course.html">COURSE </a></li>
+            <li><a href="faculty.html">FACULTY</a></li>
+            <!-- <li><a href="course.html">FACILITIES</a></li> -->
+            <!-- <li><a href="">PHOTO GALLERY</a></li> -->
+            <li><a href="about.html">ABOUT-US</a></li>
+            <li><a href="contact.html">CONTACT-US</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      
+      <h1>About Us</h1>
+    </section>
+         
+   <!-- ----------------About us Content---------------- -->
+
+   <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the State University</h1>
+        <p>Purvanchal University, Jaunpur renamed as Veer Bahadur Singh Purvanchal University (in the honour of late Shri Veer Bahadur Singh, former Chief Minister of the state), was established on 2nd October 1987 as an affiliating university under U.P. state university act 1973. Continuous qualitative and quantitative growth, excellence in academic and administrative activities, transparent and efficient academic administration have been some of the distinct characteristics on the basis of which the university emerged as one of the leading university of the country. Started with the 68 affiliated colleges,
+           the university now has widened it’s spectrum of activities with 552 affiliated graduate and post-graduate colleges and students enrollment of nearly three lacs and eighty thousand in 3 Districts of Eastern Uttar Pradesh</p>
+            <a href="https://www.vbspu.ac.in/" target="_blank" class="hero-btn blue-btn">EXPLORE NOW</a>
+          </div>
+      <div class="about-col">
+          <img src="images/aboutus.jpg" alt="">
+      </div>
+    </div>
+   </section>
+<!-- ----------------------------- Footer------------------------- -->
+
+<div class="footer">
+  <div class="inner-footer">
+    <div class="footer-items">
+      <h1>Department of computer application</h1>
+      <p>The Department of Computer Applications was started in the year 1997 initially with the intake of 30 which is now increased to 60. This course is offering MCA degree a two year Post-Graduate program in Computer Applications. Keeping in mind today’s fast paced world’s need the MCA course is designed to make software professionals in the field of computer applications with a blend of Management techniques keeping emphasis on application with sound theoretical knowledge.</p>
+    </div>
+    <div class="footer-items">
+        <h1>Quick Links</h1>
+         <div class="border"></div>
+         <ul>
+           <a href="index.html"><li>Home</li></a>
+           <a href="introduction.html"><li>Introduction</li></a>
+            <a href="course.html"><li>Course</li></a>
+            <a href="faculty.html"><li>Faculty</li></a>
+            <a href="http://vbspu.org.in/VBSPU_All_Results.aspx"><li>Result</li></a>
+            <a href="about.html"><li>About-us</li></a>
+            <a href="contact.html"><li>Contact-us</li></a>
+          </ul>
+      </div>
+      <div class="footer-items">
+          <h1>Courses</h1>
+           <div class="border"> </div>
+             <ul>
+               <a href="mca.html"><li>Master of Computer application</li></a>
+               <a href="bcadetails.html"><li>Bachelor of computer application</li></a>
+               <!-- <a href=""><li>PHP</li></a> -->
+             </ul>
+          
+        </div>
+        <div class="footer-items">
+            <h1>Contact Us</h1>
+             <div class="border"> </div>
+               
+               <ul>
+                  <li><i class="bi bi-house-heart" aria-hidden="true"></i>RMPH+4R4,Deokali,Uttar Pradesh 2220031</li>
+                 <br>
+                  <li><i class="bi bi-phone" aria-hidden="true"></i>05452 252 244</li> 
+                  <li><i class="bi bi-envelope-at" aria-hidden="true"></i>example@gmail.com</li> 
+                  </ul>
+            <div class="social-media">
+              <a href=""><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href=""><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href=""><i class="bi bi-twitter" aria-hidden="true"></i></a>
+            </div>
+          </div>
+  </div>
+  <div class="footer-bottom">
+    Copyright &copy; SRC creaters 2020-23. All rights reserved.
+  </div>
+</div>
+
+</div>
+<a class="gotopbtn" href="#"> <i class="bi bi-arrow-up"></i> </a>
+    <!-- ---------------Javascript for Toggle menu--------------------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
